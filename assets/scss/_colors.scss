@@ -17,7 +17,7 @@ $color-tertiary:          #005587 !default;
 $color-success:           #0EE1A2 !default;
 $color-warning:           #FAA41A !default;
 $color-danger:            #dc1351 !default;
-$color-highlighted:       #772583 !default;
+$color-accent:            #772583 !default;
 $color-info:              #005587 !default;
 $color-light:             #f4f5f8 !default;
 $color-medium:            #92949c !default;
@@ -142,12 +142,12 @@ $color-danger-alt-20: mix($color-danger, white, 20%);
 $color-danger-alt-10: mix($color-danger, white, 10%);
 $color-danger-alt-05: mix($color-danger, white, 5%);
 
-$color-highlighted-alt-80: mix($color-highlighted, white, 80%);
-$color-highlighted-alt-60: mix($color-highlighted, white, 60%);
-$color-highlighted-alt-40: mix($color-highlighted, white, 40%);
-$color-highlighted-alt-20: mix($color-highlighted, white, 20%);
-$color-highlighted-alt-10: mix($color-highlighted, white, 10%);
-$color-highlighted-alt-05: mix($color-highlighted, white, 5%);
+$color-accent-alt-80: mix($color-accent, white, 80%);
+$color-accent-alt-60: mix($color-accent, white, 60%);
+$color-accent-alt-40: mix($color-accent, white, 40%);
+$color-accent-alt-20: mix($color-accent, white, 20%);
+$color-accent-alt-10: mix($color-accent, white, 10%);
+$color-accent-alt-05: mix($color-accent, white, 5%);
 
 $color-info-alt-80: mix($color-info, white, 80%);
 $color-info-alt-60: mix($color-info, white, 60%);
@@ -163,3 +163,6 @@ $color-info-alt-05: mix($color-info, white, 5%);
 @include bit-colors-generate(danger, $color-danger);
 @include bit-colors-generate(success, $color-success);
 @include bit-colors-generate(warning, $color-warning);
+@include bit-colors-generate(accent, $color-accent);
+@include bit-colors-generate(neutral, $color-black);
+
