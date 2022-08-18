@@ -1,6 +1,11 @@
 # U21 Styles
 
-Allow to encapsulate styles from u21 to be used in other projects
+Allow to encapsulate styles from u21 to be used in other projects.
+
+Use:
+
+- Scss (https://sass-lang.com/)
+- Tailwind (https://tailwindcss.com/)
 
 ## Content
 

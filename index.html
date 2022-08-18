@@ -11,6 +11,8 @@
 <body>
   <section>
     <div>
+      <h1 class="text-4xl">Tipografia</h1>
+      <br>
       <p class="text-body">Tipografia Primaria</p>
       <h1>Montserrat</h1><br>
     </div>
@@ -55,21 +57,88 @@
   <section>
     <div>
       <p class="text-body"></p>
-      <h1>Colores</h1><br>
+      <h1 class="text-4xl">Colores</h1><br>
       <p class="text-body">Colores Institucionales</p><br>
     </div>
     <div>
       <div class="grid grid-cols-5 gap-2">
         <div>
-          <p class="text-body2 text-center">Primary</p>
+          <p class="text-body2 text-center">Primary (base)</p>
           <div class="bg-primary aspect-square rounded-2xl"></div>
           <p class="text-body2 text-center">#00A98F</p>
         </div>
 
         <div>
-          <p class="text-body2 text-center">Secondary</p>
+          <p class="text-body2 text-center">Primary (tint)</p>
+          <div class="bg-primaryTint aspect-square rounded-2xl"></div>
+          <p class="text-body2 text-center">#1AB29A</p>
+        </div>
+
+        <div>
+          <p class="text-body2 text-center">Primary (Shade)</p>
+          <div class="bg-primaryShade aspect-square rounded-2xl"></div>
+          <p class="text-body2 text-center">#00957E</p>
+        </div>
+
+        <div class="text-xs">
+          <p class="text-body2 text-center">Color css variables</p>
+
+          <div>Base: --bit-color-primary</div>
+          <div>Tint: --bit-color-primary-tint</div>
+          <div>Shade: --bit-color-primary-shade </div>
+          <br>
+          <p class="text-body2 text-center">Scss variables</p>
+
+          <div>Base: $color-primary</div>
+          <br>
+          <p class="text-body2 text-center">Tailwind variables</p>
+
+          <div>Base: primary</div>
+          <div>Tint: primaryTint</div>
+          <div>Shade: primaryShade </div>
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="grid grid-cols-5 gap-2">
+        <div>
+          <p class="text-body2 text-center">Secondary (base)</p>
           <div class="bg-secondary aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#006C5B</p>
+          <p class="text-body2 text-center">#006c5b</p>
+        </div>
+
+        <div>
+          <p class="text-body2 text-center">Secondary (tint)</p>
+          <div class="bg-secondaryTint aspect-square rounded-2xl"></div>
+          <p class="text-body2 text-center">#1A7B6B</p>
+        </div>
+
+        <div>
+          <p class="text-body2 text-center">Secondary (Shade)</p>
+          <div class="bg-secondaryShade aspect-square rounded-2xl"></div>
+          <p class="text-body2 text-center">#005F50</p>
+        </div>
+
+        <div class="text-xs">
+          <p class="text-body2 text-center">Color css variables</p>
+
+          <div>Base: --bit-color-secondary</div>
+          <div>Tint: --bit-color-secondary-tint</div>
+          <div>Shade: --bit-color-secondary-shade </div>
+          <br>
+          <p class="text-body2 text-center">Scss variables</p>
+
+          <div>Base: $color-secondary</div>
+          <br>
+          <p class="text-body2 text-center">Tailwind variables</p>
+
+          <div>Base: secondary</div>
+          <div>Tint: secondaryTint</div>
+          <div>Shade: secondaryShade </div>
+
         </div>
 
       </div>

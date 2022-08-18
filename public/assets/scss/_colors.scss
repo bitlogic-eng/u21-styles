@@ -165,4 +165,3 @@ $color-info-alt-05: mix($color-info, white, 5%);
 @include bit-colors-generate(warning, $color-warning);
 @include bit-colors-generate(accent, $color-accent);
 @include bit-colors-generate(neutral, $color-black);
-
