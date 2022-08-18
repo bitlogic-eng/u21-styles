@@ -1,7 +1,7 @@
 {
   "name": "@bitlogic-eng/u21-styles",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/bitlogic-eng/u21-styles",
   "files": [
     "dist/style.css",
