@@ -17,3 +17,8 @@ Use:
   - scss: here is going to define to scss. (base: colors, function, typo)
 
 - tailwind.config.cjs: extend theme (colors, font ...)
+
+## Export
+
+- Custon styles (css, scss)
+- Tailwind: bg|text|p|m|flex|grid|justify|content. (https://tailwindcss.com/docs)

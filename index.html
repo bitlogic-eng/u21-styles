@@ -11,9 +11,9 @@
 <body>
   <section>
     <div>
-      <h1 class="text-4xl">Tipografia</h1>
+      <h1 class="text-4xl text-primary-shade">Tipografia</h1>
       <br>
-      <p class="text-body">Tipografia Primaria</p>
+      <p class="text-body text-primary-shade">Tipografia Primaria</p>
       <h1>Montserrat</h1><br>
     </div>
     <div>
@@ -64,23 +64,23 @@
       <div class="grid grid-cols-5 gap-2">
         <div>
           <p class="text-body2 text-center">Primary (base)</p>
-          <div class="bg-primary aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#00A98F</p>
+          <div class="bg-primary-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-primary-base">#00A98F</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Primary (tint)</p>
-          <div class="bg-primaryTint aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#1AB29A</p>
+          <div class="bg-primary-tint aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-primary-tint">#1AB29A</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Primary (Shade)</p>
-          <div class="bg-primaryShade aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#00957E</p>
+          <div class="bg-primary-shade aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-primary-shade">#00957E</h5>
         </div>
 
-        <div class="text-xs">
+        <div class="text-xs m-4">
           <p class="text-body2 text-center">Color css variables</p>
 
           <div>Base: --bit-color-primary</div>
@@ -106,23 +106,23 @@
       <div class="grid grid-cols-5 gap-2">
         <div>
           <p class="text-body2 text-center">Secondary (base)</p>
-          <div class="bg-secondary aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#006c5b</p>
+          <div class="bg-secondary-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-secondary-base">#006c5b</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Secondary (tint)</p>
-          <div class="bg-secondaryTint aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#1A7B6B</p>
+          <div class="bg-secondary-tint aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-secondary-tint">#1A7B6B</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Secondary (Shade)</p>
-          <div class="bg-secondaryShade aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#005F50</p>
+          <div class="bg-secondary-shade aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-secondary-shade">#005F50</h5>
         </div>
 
-        <div class="text-xs">
+        <div class="text-xs m-4">
           <p class="text-body2 text-center">Color css variables</p>
 
           <div>Base: --bit-color-secondary</div>
@@ -133,11 +133,11 @@
 
           <div>Base: $color-secondary</div>
           <br>
-          <p class="text-body2 text-center">Tailwind variables</p>
+          <p class="text-body2 text-center">class</p>
 
-          <div>Base: secondary</div>
-          <div>Tint: secondaryTint</div>
-          <div>Shade: secondaryShade </div>
+          <div>Base: bg-secondary, text-secondary</div>
+          <div>Tint: bg-secondary-tint, text-secondary-tint</div>
+          <div>Shade: bg-secondary-shade, text-secondary-shade </div>
 
         </div>
 
@@ -148,32 +148,38 @@
       <div class="grid grid-cols-10 gap-2">
         <div>
           <p class="text-body2 text-center">Tertiary</p>
-          <div class="bg-tertiary aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#005587</p>
+          <div class="bg-tertiary-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-tertiary-base">#005587</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Danger</p>
-          <div class="bg-danger aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#DC1351</p>
+          <div class="bg-danger-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-danger-base">#DC1351</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Success</p>
-          <div class="bg-success aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#0EE1A2</p>
+          <div class="bg-success-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-success-base">#0EE1A2</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Warning</p>
-          <div class="bg-warning aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#FAA41A</p>
+          <div class="bg-warning-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-warning-base">#FAA41A</h5>
         </div>
 
         <div>
           <p class="text-body2 text-center">Accent</p>
-          <div class="bg-accent aspect-square rounded-2xl"></div>
-          <p class="text-body2 text-center">#772583</p>
+          <div class="bg-accent-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-accent-base">#772583</h5>
+        </div>
+
+        <div>
+          <p class="text-body2 text-center">Neutral</p>
+          <div class="bg-neutral-base aspect-square rounded-2xl"></div>
+          <h5 class="text-center text-neutral-base">#000000</h5>
         </div>
 
       </div>
