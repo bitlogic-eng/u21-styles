@@ -17,7 +17,7 @@ module.exports = {
           base: "var(--bit-color-primary)",
           tint: "var(--bit-color-primary-tint)",
           shade: "var(--bit-color-primary-shade)",
-          contrast: "var(--bit-color-primary-shade)",
+          contrast: "var(--bit-color-primary-contrast)",
         },
         secondary: {
           base: "var(--bit-color-secondary)",
